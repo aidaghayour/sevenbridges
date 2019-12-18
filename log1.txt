@@ -1,0 +1,91 @@
+    1  lscpu
+    2  lscpu | grep avx2
+    3  lscpu | grep avx
+    4  wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/b37/human_g1k_v37_decoy.fasta.gz
+    5  ls
+    6  rm SAMPLE.sort_\(1\).vcf 
+    7  ls
+    8  dmidecode|less
+    9  sudo dmidecode --type 17
+   10  lscpu
+   11  ls
+   12  which git
+   13  sudo apt-get install git
+   14  git init
+   15  mkdir doc
+   16  cd doc
+   17  nano.txt
+   18  sb.txt
+   19  nano
+   20  ls
+   21  git init
+   22  git add aida 
+   23  ls
+   24  git commit -m "start"
+   25  ls
+   26  git config --global user.email "aghayourkhia@mun.ca"
+   27  git config user.name "aidaghayour"
+   28  git commit -m "start"
+   29  git remote add origin https://github.com/aidaghayour/sevenbridges.git
+   30  ls
+   31  git remote add origin https://github.com/aidaghayour/sevenbridges.git
+   32  git push -u origin master
+   33  nano aida 
+   34  ls
+   35  rm aida 
+   36  ls
+   37  cd ..
+   38  ls
+   39  sudo apt-get update -y && sudo apt-get install -y linux-image-extra-$(uname -r)
+   40  sudo apt-get install docker.io
+   41  sudo apt-get install docker-engine -y
+   42  ls cpu
+   43  lscpu
+   44  hostnamectl
+   45  cat /etc/os-release
+   46  sudo apt-get update
+   47  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg2     software-properties-common
+   48  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+   49  udo apt-key fingerprint 0EBFCD88
+   50  pub   4096R/0EBFCD88 2017-02-22
+   51  uid                  Docker Release (CE deb) <docker@docker.com>
+   52  sub   4096R/F273FCD8 2017-02-22sudo apt-key fingerprint 0EBFCD88
+   53  pub   4096R/0EBFCD88 2017-02-22
+   54  uid                  Docker Release (CE deb) <docker@docker.com>
+   55  sub   4096R/F273FCD8 2017-02-22
+   56  sudo apt-key fingerprint 0EBFCD88
+   57  pub   4096R/0EBFCD88 2017-02-22
+   58  uid                  Docker Release (CE deb) <docker@docker.com>
+   59  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+   60  sudo apt-key fingerprint 0EBFCD88
+   61  sudo apt-get update
+   62  docker version
+   63  sudo docker version
+   64  sudo apt-get update
+   65  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   66  apt-cache madison docker-ce
+   67  sudo apt-get install docker-ce=5:18.09.4~3-0~debian-stretch docker-ce-cli=5:18.09.4~3-0~debian-stretch containerd.io
+   68  sudo docker run hello-world
+   69  ls
+   70  ll
+   71  pwd
+   72  cd ~
+   73  ls
+   74  pwd
+   75  cd ~/doc
+   76  ls
+   77  cd >>
+   78  cd ..
+   79  cd
+   80  ls
+   81  cat history
+   82  history
+   83  ls
+   84  cat history > log1.txt
+   85  cat history >> log1.txt
+   86  cat history log1.txt
+   87  ls
+   88  histry > log1.txt 
+   89  history > log1.txt 
