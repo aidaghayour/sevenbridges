@@ -30,3 +30,10 @@ cd ../..
 ################### Exit the container c+D
 samtools sort sample.bam > sample.sort.bam
 samtools index sample.sort.bam
+
+
+
+################### Run variant caller docker
+sudo docker run -ti -v ~:/mountedcwd 899444cb5a93
+################### Do the variant calling > output VCF file is named sample2result.vcf
+./usr/local/bin/reassembly_variant_caller -b ./mountedcwd/sample2.sort.bam -f ./mountedcwd/human_g1k_v37_decoy.fasta -g ./mountedcwd/SBG.Graph.B37.V6.rc6.vcf.gz -v ./mountedcwd/sample2results.vcf
